@@ -1,0 +1,67 @@
+.vs {
+    background: url(../img/head_bg_original.webp) no-repeat center top;
+    height: 736px;
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0px;
+    width: 100%;
+
+    // .vs__content
+
+    &__content {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        right: 0;
+        bottom: 50px;
+        max-width: 544px;
+    }
+
+    // .vs__title
+
+    &__title {
+        
+    }
+
+    // .vs__btn
+
+    &__btn {
+         border: none;
+         background-color: transparent;
+         margin-right: 30px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         &:last-child{
+             margin-right: 0;
+         }
+    }
+
+    // .vs__link
+
+    &__link {}
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: $white;
+    text-align: center;
+}
+
+.btn {
+   
+
+    // .btn__wrapper
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.main{
+    position: relative;
+}

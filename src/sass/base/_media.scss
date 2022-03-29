@@ -1,0 +1,252 @@
+
+
+@media (max-width: 1030px) {
+    .vs{
+        height: 600px;
+    }
+    .title{
+        font-size: 38px;
+    }
+    .vs__content{
+        bottom: 60px;
+    }
+   
+    .vs__content{
+        max-width: none;
+        width: 100%;
+        bottom: 30px;
+    }
+    .readmar {
+        padding-top: 650px;
+    }
+    
+}
+@media (max-width: 976px) {
+    .advantages__list{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .advantages__item{
+        margin-right: 0;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .nav-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: $black;
+        position: absolute;
+        top: -20em;
+        z-index: 2;
+        padding:  10px 0 20px 0;
+        visibility: hidden;
+        transition: all 1s;
+    }
+    .info{
+        margin-left: 20px;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .menu__wrapper{
+        margin-left: 10px;
+    }
+    .menu__list{
+        padding: 20px 0 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu__item{
+        padding: 10px 0;
+        &:first-child{
+            padding: 0;
+        }
+    }
+    .mobile__icons {
+        display: block;
+    }
+    .active-menu{
+        visibility: visible;
+        top: 60px;
+        
+    }
+    .active{
+        display: block;
+    }
+    .d-none{
+        display: none;
+    }
+    .vs {
+        
+        background-size: cover;
+        height: 400px;
+
+    }
+    .vs__link img{
+        width: 34px;
+    }
+    .readmar{
+        padding-top: 430px;
+    }
+    .title{
+        font-size: 30px;
+
+
+    }
+    .vs__content{
+        bottom: 20px;
+    }
+    .advantages {
+     background: url(../img/bottom_bg.webp) no-repeat center;
+     background-size: cover;
+    }
+    .menu{
+        padding: 0;
+    }
+    .logo{
+        left: 15px;
+        bottom: -30px;
+    }
+    .mobile__svg{
+        display: block;
+    }
+    .disable .disable__text{
+        top: 25px;
+    }
+}
+@media (max-width: 585px) {
+    .readmar__wrapper{
+        justify-content: flex-start;
+    }
+    .readmar__line{
+        margin-left: 20px;
+    }
+    .top_1{
+        left: 80px;
+    }
+    .top_2 {
+        left: 80px;
+        text-align: left; 
+        
+        border-left: 15px solid #202027;
+        border-right: none; 
+        padding: 10px 16px 20px 10px;
+    }
+    .top_3 {
+        right: auto;
+        left: 80px;
+        
+    }
+    .top_4 {
+        left: 80px;
+        text-align: left;
+        border-left: 15px solid #202027;
+        border-right: none;
+        padding: 10px 16px 20px 10px;
+    }
+    .top_5{
+        right: auto;
+        left: 80px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .vs {
+        height: 300px;
+    }
+    .vs__content {
+        bottom: 10px;
+    }
+    .readmar {
+        padding-top: 350px;
+    }
+    .advantages__item{
+        width: 100%;
+    }
+    .vs__btn{
+        margin-right: 10px;
+        width: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+}
+@media (max-width: 485px) {
+    .logo{
+        bottom: -10px;
+    }
+    .logo img{
+        width: 76px;
+        
+    }
+    .advantages__img img{
+        width: 300px;
+    }
+    .advantages__list {
+        
+        padding-top: 320px;
+    }
+    .btn{
+        width: 143px;
+    }
+    .select{
+        width: 150px;
+    }
+    .info{
+        width: 90%;
+    }
+    .vs{
+        height: 200px;
+    }
+    .title{
+        font-size: 16px;
+        margin-top: 0;
+        margin: 0 0 5px 0;
+    }
+    .vs__content{
+        bottom: 0px;
+    }
+    .vs__link img {
+        width: 30px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .readmar {
+        padding-top: 220px;
+    }
+    .menu__icons{
+        width: 100px;
+    }
+    
+}
+@media (max-width: 360px) {
+ .top_1,.top_2,.top_3,.top_4,.top_5{
+     left: 55px;
+ }
+ .readmar__line {
+     margin-left: 10px;
+ }
+}
+@media (min-width: 2500px) {
+    .vs{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    .bg{
+        background-color: #1b122a;
+        height: 736px;
+        
+        
+    }
+    .readmar {
+        padding-top: 40px
+
+    }
+
+}

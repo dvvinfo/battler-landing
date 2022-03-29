@@ -1,0 +1,179 @@
+.header {
+    background-color: $black;
+    width: 100%;
+}
+
+.menu {
+    max-width: 1200px;
+    display: flex;
+    height: 64px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+
+    // .menu__wrapper
+
+    &__wrapper {
+        margin-left: 70px;
+    }
+
+    // .menu__list
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    // .menu__item
+
+    &__item {
+        position: relative;
+        
+    }
+
+    // .menu__link
+
+    &__link {
+        padding: 0 17px;
+        color: $menu;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+}
+.active .menu__link {
+    color: $white;
+}
+.logo {
+    position: absolute;
+    bottom: -23px;
+    z-index: 3;
+}
+
+.info {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    color: $white;
+    line-height: 1.2;
+    padding: 7px;
+    width: 160px;
+    height: 40px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid $white;
+    border-radius: 8px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: $black_1;
+    background-image: url('../img/icons/v.png');
+    background-repeat: no-repeat,
+    repeat;
+    background-position: right .7em top 50%,
+    0 0;
+    background-size: .65em auto,
+    100%;
+    &:focus{
+        outline: none;
+    }
+
+    // .select__img
+
+    &__img {}
+    &__option{
+        background: url(../img/logo_solana.png) no-repeat;
+        background-size: 20px;
+        background-position: 0 1px;
+    }
+}
+.select::-ms-expand {
+    display: none;
+}
+.btn {
+    width: 153px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: $blue;
+    color: $white;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 30px;
+    border: none;
+    &:focus {
+        outline: none;
+    }
+}
+.nav-wrapper{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.mobile__icons{
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: 30px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    &:focus {
+        outline: none;
+    }
+}
+.mobile__close{
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: 30px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    &:focus{
+        outline: none;
+    }
+}
+.mobile__svg path {
+    fill: #fff;
+}
+.mobile__svg{
+    width: 30px;
+    height: 30px;
+}
+.disable .disable__text {
+    color: $black;
+    font-size: 14px;
+    font-weight: bold;
+    
+    width: 44px;
+    height:20px;
+    text-align: center;
+    border-radius: 6px;
+    line-height: normal;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: #fff;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.none{
+    display: none;
+}
+
